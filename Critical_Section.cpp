@@ -30,4 +30,4 @@ void main()
 	DWORD Par = 0;
 	Thread_1 = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Pokaz, (LPVOID)Par, 0,(LPDWORD)&ID);
 	Thread_2 = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Metod, (LPVOID)Par, 0,(LPDWORD)&ID);
-	while (true);     }
+	while (true);    }
