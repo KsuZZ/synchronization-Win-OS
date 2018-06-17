@@ -1,0 +1,17 @@
+The critical section is created as a structure of type CRITICAL_SECTION.
+Before use, it must be initialized with
+function InitializeCriticalSection (). If necessary, a critical
+  The section can be deleted using the DeleteCriticalSection () function.
+In this case, all resources created by the operating system for
+critical section. To enter the critical section, use the function
+EnterCriticalSection (), to exit the critical section is used
+function LeaveCriticalSection ().
+///////////////////////////////////////////////////////////////////////
+Критическая секция создается как структура типа CRITICAL_SECTION. 
+Перед использованием она должна быть проинициализирована с помощью 
+функции InitializeCriticalSection(). В случае необходимости критическая
+ секция может быть удалена с помощью функции DeleteCriticalSection(). 
+При этом освобождаются все ресурсы, созданные операционной системой для 
+критической секции. Для входа в критическую секцию используется функция 
+EnterCriticalSection(), для выхода из критической секции используется 
+функция LeaveCriticalSection(). 
